@@ -1,0 +1,242 @@
+This is the output of running the following command in terminal: 
+for i in `seq 1 10`; do echo; echo; echo "merge $i:"; time python merge.py "$i.txt"; echo; echo; echo "quick $i:"; time python quicksort.py "$i.txt"; done;
+
+
+merge 1:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.491s
+user	0m6.428s
+sys	0m0.068s
+
+
+quick 1:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.588s
+user	0m4.572s
+sys	0m0.020s
+
+
+merge 2:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.512s
+user	0m6.468s
+sys	0m0.052s
+
+
+quick 2:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.573s
+user	0m4.564s
+sys	0m0.012s
+
+
+merge 3:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.476s
+user	0m6.432s
+sys	0m0.048s
+
+
+quick 3:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.537s
+user	0m4.504s
+sys	0m0.032s
+
+
+merge 4:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.484s
+user	0m6.436s
+sys	0m0.056s
+
+
+quick 4:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.648s
+user	0m4.612s
+sys	0m0.040s
+
+
+merge 5:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.638s
+user	0m6.608s
+sys	0m0.036s
+
+
+quick 5:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.614s
+user	0m4.564s
+sys	0m0.052s
+
+
+merge 6:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.542s
+user	0m6.512s
+sys	0m0.036s
+
+
+quick 6:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.564s
+user	0m4.536s
+sys	0m0.032s
+
+
+merge 7:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.415s
+user	0m6.388s
+sys	0m0.036s
+
+
+quick 7:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.541s
+user	0m4.516s
+sys	0m0.028s
+
+
+merge 8:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.491s
+user	0m6.436s
+sys	0m0.060s
+
+
+quick 8:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.714s
+user	0m4.688s
+sys	0m0.028s
+
+
+merge 9:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.475s
+user	0m6.404s
+sys	0m0.080s
+
+
+quick 9:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.512s
+user	0m4.492s
+sys	0m0.024s
+
+
+merge 10:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m6.591s
+user	0m6.476s
+sys	0m0.120s
+
+
+quick 10:
+Checking python version...Good.
+Collecting data.
+Done collecting data.
+Sorting...
+done.
+
+real	0m4.576s
+user	0m4.556s
+sys	0m0.024s
