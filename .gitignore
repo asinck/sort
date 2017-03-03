@@ -1,0 +1,5 @@
+#the uncompressed data files
+*.txt
+
+#backup files
+*.*~
